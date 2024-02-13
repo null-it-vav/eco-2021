@@ -1,0 +1,11 @@
+framework module YooMoneyUI {
+  umbrella header "YooMoneyUI.h"
+
+  export *
+  module * { export * }
+}
+
+module YooMoneyUI.Swift {
+  header "YooMoneyUI-Swift.h"
+  requires objc
+}
